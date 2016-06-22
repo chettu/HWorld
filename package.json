@@ -1,0 +1,21 @@
+	{
+	"name": "HWorld",
+	"description": "A JavaScript project to connect to Fargo to publish a folder in Dropbox.",
+	"author": "Deepak Selvaraj",
+	"version": "0.0.1",
+	"scripts": {
+		"start": "node publisher.js"
+			},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chettu/HWorld.git"
+		},
+	"dependencies" : {
+		"aws-sdk": "*", 
+		"request": "*"
+		}, 
+	"license": "MIT",
+	"engines": {
+		"node": "0.10.x"
+		}
+	}
